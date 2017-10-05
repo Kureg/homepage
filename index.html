@@ -10,6 +10,26 @@ body{
 	margin-right: auto;
 	background-color: #F6E3CE;
 }
+#header{
+}
+#side-bar{
+	width: 150px;
+	background-color: #FAFAFA;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #FF0040;
+	border-radius: 5px;
+}
+#content{
+	width: 516px;
+	background-color: #FAFAFA;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #FF0040;
+	border-radius: 5px;
+	position: relative;
+	left: 4px;
+}
 
 img#title{
 	width: 30%;
@@ -24,6 +44,19 @@ span#sub-title{
 	top: -10px;
 	left: 20px;
 }
+.mn{
+	text-align: center;
+	font-color: #151515;
+	font-weight: bold;
+	background-color: #DBA901;
+	position: relative;
+	top: -10px;
+}
+.sf{
+	position: relative;
+	left: 20px;
+	top: -15px;
+}
 
 </style>
 </head>
@@ -33,6 +66,18 @@ span#sub-title{
 <img src="img/title-logo.png" id="title" /><br />
 <span id="sub-title">フロントエンドエンジニアを目指す</span>
 </div>
-ここに本文を入力
+<table>
+<tr>
+<td id="side-bar">
+<p class="mn">MENU</p>
+<span class="sf">TOP</span><br>
+<span class="sf">PROFILE</span>
+</td>
+<td id="content">
+
+</td>
+</td>
+</tr>
+</table>
 </body>
 </html>
