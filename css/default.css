@@ -31,6 +31,12 @@ h2{
 hr{
 	width: 840px;
 }
+blockquote{
+	border: ridge 3px #cccccc;
+	border-radius: 6px;
+	background-color: #cccccc;
+	padding: 4px;
+}
 
 #header{
 	padding: 3px;
@@ -43,6 +49,14 @@ hr{
 	margin-left: auto;
 	margin-right: auto;
 }
+#title-text{
+	text-decoration: none;
+	font-size: 16px;
+	color: #000000;
+	font-weight: bold;
+	position: relative;
+	left: 20px;
+}
 #menu{
 	margin-left: auto;
 	margin-right: auto;
@@ -52,7 +66,7 @@ hr{
 	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.15);
 }
 .ma{
-	width: 190px;
+	width: 160px;
 	height: 30px;
 }
 .mb{
@@ -112,7 +126,7 @@ a.menu-link{
 	font-size: 18px;
 	font-weight: bold;
 	color: #444444;
-	
+
 }
 .menu2{
 	text-decoration: none;
